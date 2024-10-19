@@ -1,0 +1,6 @@
+C:\Users\Martin\Desktop\Programming\C++\SegundoParcial\SegundoParcial\x64\Debug\SegundoParcial.vcxproj.AssemblyReference.cache
+C:\Users\Martin\Desktop\Programming\C++\SegundoParcial\SegundoParcial\x64\Debug\SegundoParcial.CrearTicket.resources
+C:\Users\Martin\Desktop\Programming\C++\SegundoParcial\SegundoParcial\x64\Debug\SegundoParcial.FormLogin.resources
+C:\Users\Martin\Desktop\Programming\C++\SegundoParcial\SegundoParcial\x64\Debug\SegundoParcial.vcxproj.GenerateResource.cache
+C:\Users\Martin\Desktop\Programming\C++\SegundoParcial\SegundoParcial\x64\Debug\SegundoParcial.MyForm.resources
+C:\Users\Martin\Desktop\Programming\C++\SegundoParcial\SegundoParcial\x64\Debug\SegundoParcial.VerTicket.resources

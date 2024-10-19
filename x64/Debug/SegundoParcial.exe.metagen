@@ -1,0 +1,59 @@
+  SegundoParcial.CrearTicket.resources - Embedded, ContainedInManifestFile, 
+  SegundoParcial.FormLogin.resources - Embedded, ContainedInManifestFile, 
+  SegundoParcial.VerTicket.resources - Embedded, ContainedInManifestFile, 
+  SegundoParcial.MyForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly SegundoParcial, Version=1.0.*, Culture=Todos los idiomas (todos los países): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class SegundoParcial.FormLogin: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Button registerButton : Public
+    System.Windows.Forms.Button loginButton : Public
+    System.Windows.Forms.TextBox dniInput : Public
+    System.Windows.Forms.TextBox passwordInput : Public
+Class SegundoParcial.CrearTicket: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.TextBox dniInput : Public
+    System.Windows.Forms.TextBox textBox1 : Public
+    System.Windows.Forms.Button registerButton : Public
+    System.Windows.Forms.Button button1 : Public
+Class SegundoParcial.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Button button1 : Public
+    System.Windows.Forms.TextBox textBox2 : Public
+    System.Windows.Forms.TextBox textBox1 : Public
+    System.Windows.Forms.TextBox passwordInput : Public
+    System.Windows.Forms.Button registerButton : Public
+    System.Windows.Forms.Button button2 : Public
+    System.Windows.Forms.Button button3 : Public
+    System.Windows.Forms.Button button6 : Public
+    System.Windows.Forms.Button button5 : Public
+    System.Windows.Forms.Button button4 : Public
+    System.Windows.Forms.Button button9 : Public
+    System.Windows.Forms.Button button7 : Public
+Class SegundoParcial.VerTicket: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.TextBox textBox1 : Public
+    System.Windows.Forms.TextBox dniInput : Public
+    System.Windows.Forms.TextBox textBox2 : Public
+    System.Windows.Forms.TextBox textBox3 : Public
