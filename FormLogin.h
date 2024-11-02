@@ -19,6 +19,7 @@ namespace SegundoParcial {
 		FormLogin(void)
 		{
 			InitializeComponent();
+			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen; // Center the form
 			//
 			//TODO: Add the constructor code here
 			//
@@ -35,11 +36,12 @@ namespace SegundoParcial {
 				delete components;
 			}
 		}
-	public: System::Windows::Forms::Button^ registerButton;
+
 	protected:
 
 	public: System::Windows::Forms::Button^ loginButton;
-	public: System::Windows::Forms::TextBox^ dniInput;
+	public: System::Windows::Forms::TextBox^ idInput;
+
 
 	private: System::Windows::Forms::Label^ dniLabel;
 
@@ -50,6 +52,12 @@ namespace SegundoParcial {
 
 
 	private: System::Windows::Forms::Label^ label3;
+	public: System::Windows::Forms::Button^ solicitarDesbloqueoBtn;
+	private:
+
+	private:
+
+	private:
 
 
 
@@ -76,31 +84,15 @@ namespace SegundoParcial {
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			this->registerButton = (gcnew System::Windows::Forms::Button());
+			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(FormLogin::typeid));
 			this->loginButton = (gcnew System::Windows::Forms::Button());
-			this->dniInput = (gcnew System::Windows::Forms::TextBox());
+			this->idInput = (gcnew System::Windows::Forms::TextBox());
 			this->dniLabel = (gcnew System::Windows::Forms::Label());
 			this->label2 = (gcnew System::Windows::Forms::Label());
 			this->passwordInput = (gcnew System::Windows::Forms::TextBox());
 			this->label3 = (gcnew System::Windows::Forms::Label());
+			this->solicitarDesbloqueoBtn = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
-			// 
-			// registerButton
-			// 
-			this->registerButton->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Bottom | System::Windows::Forms::AnchorStyles::Left));
-			this->registerButton->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(82)), static_cast<System::Int32>(static_cast<System::Byte>(82)),
-				static_cast<System::Int32>(static_cast<System::Byte>(82)));
-			this->registerButton->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
-			this->registerButton->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->registerButton->ForeColor = System::Drawing::SystemColors::ControlLight;
-			this->registerButton->Location = System::Drawing::Point(15, 235);
-			this->registerButton->Margin = System::Windows::Forms::Padding(4);
-			this->registerButton->Name = L"registerButton";
-			this->registerButton->Size = System::Drawing::Size(167, 39);
-			this->registerButton->TabIndex = 4;
-			this->registerButton->Text = L"Registrarse";
-			this->registerButton->UseVisualStyleBackColor = false;
 			// 
 			// loginButton
 			// 
@@ -111,29 +103,29 @@ namespace SegundoParcial {
 			this->loginButton->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->loginButton->ForeColor = System::Drawing::SystemColors::ControlLight;
-			this->loginButton->Location = System::Drawing::Point(202, 235);
+			this->loginButton->Location = System::Drawing::Point(104, 232);
 			this->loginButton->Margin = System::Windows::Forms::Padding(4);
 			this->loginButton->Name = L"loginButton";
-			this->loginButton->Size = System::Drawing::Size(167, 39);
+			this->loginButton->Size = System::Drawing::Size(181, 39);
 			this->loginButton->TabIndex = 3;
 			this->loginButton->Text = L"Iniciar sesión";
 			this->loginButton->UseVisualStyleBackColor = false;
 			// 
-			// dniInput
+			// idInput
 			// 
-			this->dniInput->Anchor = static_cast<System::Windows::Forms::AnchorStyles>(((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Left)
+			this->idInput->Anchor = static_cast<System::Windows::Forms::AnchorStyles>(((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Left)
 				| System::Windows::Forms::AnchorStyles::Right));
-			this->dniInput->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(45)), static_cast<System::Int32>(static_cast<System::Byte>(45)),
+			this->idInput->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(45)), static_cast<System::Int32>(static_cast<System::Byte>(45)),
 				static_cast<System::Int32>(static_cast<System::Byte>(45)));
-			this->dniInput->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
-			this->dniInput->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->idInput->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
+			this->idInput->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->dniInput->ForeColor = System::Drawing::SystemColors::Window;
-			this->dniInput->Location = System::Drawing::Point(15, 94);
-			this->dniInput->Margin = System::Windows::Forms::Padding(4);
-			this->dniInput->Name = L"dniInput";
-			this->dniInput->Size = System::Drawing::Size(353, 30);
-			this->dniInput->TabIndex = 1;
+			this->idInput->ForeColor = System::Drawing::SystemColors::Window;
+			this->idInput->Location = System::Drawing::Point(15, 94);
+			this->idInput->Margin = System::Windows::Forms::Padding(4);
+			this->idInput->Name = L"idInput";
+			this->idInput->Size = System::Drawing::Size(353, 30);
+			this->idInput->TabIndex = 1;
 			// 
 			// dniLabel
 			// 
@@ -181,7 +173,6 @@ namespace SegundoParcial {
 			// 
 			// label3
 			// 
-			this->label3->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Right));
 			this->label3->AutoSize = true;
 			this->label3->Font = (gcnew System::Drawing::Font(L"Liberation Sans", 15.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
@@ -193,6 +184,22 @@ namespace SegundoParcial {
 			this->label3->TabIndex = 8;
 			this->label3->Text = L"Inicio de sesión";
 			// 
+			// solicitarDesbloqueoBtn
+			// 
+			this->solicitarDesbloqueoBtn->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(82)),
+				static_cast<System::Int32>(static_cast<System::Byte>(82)), static_cast<System::Int32>(static_cast<System::Byte>(82)));
+			this->solicitarDesbloqueoBtn->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
+			this->solicitarDesbloqueoBtn->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular,
+				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(0)));
+			this->solicitarDesbloqueoBtn->ForeColor = System::Drawing::SystemColors::ControlLight;
+			this->solicitarDesbloqueoBtn->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"solicitarDesbloqueoBtn.Image")));
+			this->solicitarDesbloqueoBtn->Location = System::Drawing::Point(314, 13);
+			this->solicitarDesbloqueoBtn->Margin = System::Windows::Forms::Padding(4);
+			this->solicitarDesbloqueoBtn->Name = L"solicitarDesbloqueoBtn";
+			this->solicitarDesbloqueoBtn->Size = System::Drawing::Size(52, 39);
+			this->solicitarDesbloqueoBtn->TabIndex = 10;
+			this->solicitarDesbloqueoBtn->UseVisualStyleBackColor = false;
+			// 
 			// FormLogin
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
@@ -200,13 +207,13 @@ namespace SegundoParcial {
 			this->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(30)), static_cast<System::Int32>(static_cast<System::Byte>(30)),
 				static_cast<System::Int32>(static_cast<System::Byte>(30)));
 			this->ClientSize = System::Drawing::Size(379, 284);
+			this->Controls->Add(this->solicitarDesbloqueoBtn);
 			this->Controls->Add(this->label3);
 			this->Controls->Add(this->label2);
 			this->Controls->Add(this->passwordInput);
 			this->Controls->Add(this->dniLabel);
-			this->Controls->Add(this->dniInput);
+			this->Controls->Add(this->idInput);
 			this->Controls->Add(this->loginButton);
-			this->Controls->Add(this->registerButton);
 			this->Margin = System::Windows::Forms::Padding(4);
 			this->Name = L"FormLogin";
 			this->Text = L"MyForm";

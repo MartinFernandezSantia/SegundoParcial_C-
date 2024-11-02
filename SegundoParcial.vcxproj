@@ -146,34 +146,51 @@
     <ClInclude Include="FormLogin.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="FormChangePass.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="VerTicket.h">
       <FileType>CppForm</FileType>
     </ClInclude>
-    <ClInclude Include="MyForm.h">
+    <ClInclude Include="FormMain.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="pch.h" />
     <ClInclude Include="Resource.h" />
+    <ClInclude Include="VerTicketAdmin.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="Auth.cpp" />
+    <ClCompile Include="Connection.cpp" />
+    <ClCompile Include="Controller.cpp" />
     <ClCompile Include="CppCLR_WinFormsProject.cpp" />
-    <ClCompile Include="CrearTicket.cpp" />
-    <ClCompile Include="CrearUsuario.cpp" />
-    <ClCompile Include="Form1.cpp" />
-    <ClCompile Include="ModificarTicket.cpp" />
-    <ClCompile Include="MyForm.cpp" />
+    <ClCompile Include="Estado.cpp" />
+    <ClCompile Include="Notificacion.cpp" />
+    <ClCompile Include="NotificacionCRUD.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Rol.cpp" />
+    <ClCompile Include="RolCRUD.cpp" />
+    <ClCompile Include="Ticket.cpp" />
+    <ClCompile Include="TicketCRUD.cpp" />
+    <ClCompile Include="Usuario.cpp" />
+    <ClCompile Include="UsuarioCRUD.cpp" />
+    <ClCompile Include="VerTicketAdmin.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="app.ico" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector NET 9.1\MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -190,12 +207,21 @@
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormChangePass.resx">
+      <DependentUpon>FormChangePass.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="VerTicket.resx">
       <DependentUpon>VerTicket.h</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MyForm.resx">
-      <DependentUpon>MyForm.h</DependentUpon>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="VerTicketAdmin.resx">
+      <DependentUpon>VerTicketAdmin.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Java\SegundoParcial_DesApps\app\src\main\java\com\martin\segundoparcial_desapps\mysql\workbench\CreateDatabaseAndTables.sql" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

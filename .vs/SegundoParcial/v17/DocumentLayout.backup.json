@@ -1,0 +1,172 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Martin\\Desktop\\Code\\C\u002B\u002B\\SegundoParcial\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B5F3E3D9-763F-48B6-821C-D120EB2BC91C}|SegundoParcial.vcxproj|C:\\Users\\Martin\\Desktop\\Code\\C\u002B\u002B\\SegundoParcial\\CrearUsuario.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
+      "RelativeMoniker": "D:0:0:{B5F3E3D9-763F-48B6-821C-D120EB2BC91C}|SegundoParcial.vcxproj|solutionrelative:CrearUsuario.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5F3E3D9-763F-48B6-821C-D120EB2BC91C}|SegundoParcial.vcxproj|C:\\Users\\Martin\\Desktop\\Code\\C\u002B\u002B\\SegundoParcial\\Controller.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B5F3E3D9-763F-48B6-821C-D120EB2BC91C}|SegundoParcial.vcxproj|solutionrelative:Controller.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5F3E3D9-763F-48B6-821C-D120EB2BC91C}|SegundoParcial.vcxproj|C:\\Users\\Martin\\Desktop\\Code\\C\u002B\u002B\\SegundoParcial\\VerTicketAdmin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
+      "RelativeMoniker": "D:0:0:{B5F3E3D9-763F-48B6-821C-D120EB2BC91C}|SegundoParcial.vcxproj|solutionrelative:VerTicketAdmin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5F3E3D9-763F-48B6-821C-D120EB2BC91C}|SegundoParcial.vcxproj|C:\\Users\\Martin\\Desktop\\Code\\C\u002B\u002B\\SegundoParcial\\VerTicket.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
+      "RelativeMoniker": "D:0:0:{B5F3E3D9-763F-48B6-821C-D120EB2BC91C}|SegundoParcial.vcxproj|solutionrelative:VerTicket.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5F3E3D9-763F-48B6-821C-D120EB2BC91C}|SegundoParcial.vcxproj|C:\\Users\\Martin\\Desktop\\Code\\C\u002B\u002B\\SegundoParcial\\TicketCRUD.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B5F3E3D9-763F-48B6-821C-D120EB2BC91C}|SegundoParcial.vcxproj|solutionrelative:TicketCRUD.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5F3E3D9-763F-48B6-821C-D120EB2BC91C}|SegundoParcial.vcxproj|C:\\Users\\Martin\\Desktop\\Code\\C\u002B\u002B\\SegundoParcial\\FormMain.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
+      "RelativeMoniker": "D:0:0:{B5F3E3D9-763F-48B6-821C-D120EB2BC91C}|SegundoParcial.vcxproj|solutionrelative:FormMain.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5F3E3D9-763F-48B6-821C-D120EB2BC91C}|SegundoParcial.vcxproj|C:\\Users\\Martin\\Desktop\\Code\\C\u002B\u002B\\SegundoParcial\\UsuarioCRUD.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B5F3E3D9-763F-48B6-821C-D120EB2BC91C}|SegundoParcial.vcxproj|solutionrelative:UsuarioCRUD.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsuarioCRUD.cpp",
+              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\Code\\C\u002B\u002B\\SegundoParcial\\UsuarioCRUD.cpp",
+              "RelativeDocumentMoniker": "UsuarioCRUD.cpp",
+              "ToolTip": "C:\\Users\\Martin\\Desktop\\Code\\C\u002B\u002B\\SegundoParcial\\UsuarioCRUD.cpp",
+              "RelativeToolTip": "UsuarioCRUD.cpp",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-26T04:46:54.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TicketCRUD.cpp",
+              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\Code\\C\u002B\u002B\\SegundoParcial\\TicketCRUD.cpp",
+              "RelativeDocumentMoniker": "TicketCRUD.cpp",
+              "ToolTip": "C:\\Users\\Martin\\Desktop\\Code\\C\u002B\u002B\\SegundoParcial\\TicketCRUD.cpp",
+              "RelativeToolTip": "TicketCRUD.cpp",
+              "ViewState": "AgIAANQAAAAAAAAAAAAcwOUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-25T17:08:15.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Controller.cpp",
+              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\Code\\C\u002B\u002B\\SegundoParcial\\Controller.cpp",
+              "RelativeDocumentMoniker": "Controller.cpp",
+              "ToolTip": "C:\\Users\\Martin\\Desktop\\Code\\C\u002B\u002B\\SegundoParcial\\Controller.cpp",
+              "RelativeToolTip": "Controller.cpp",
+              "ViewState": "AgIAAHgBAAAAAAAAAAAowIgBAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-23T21:05:12.244Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "ca861afb-ff81-4f24-b89c-1ee398cbb8a4",
+        "Display": 1,
+        "X": 221,
+        "Y": 62,
+        "Width": 1315,
+        "Height": 615,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CrearUsuario.h [Design]",
+              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\Code\\C\u002B\u002B\\SegundoParcial\\CrearUsuario.h",
+              "RelativeDocumentMoniker": "CrearUsuario.h",
+              "ToolTip": "C:\\Users\\Martin\\Desktop\\Code\\C\u002B\u002B\\SegundoParcial\\CrearUsuario.h [Design]",
+              "RelativeToolTip": "CrearUsuario.h [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-02T04:33:49.15Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VerTicketAdmin.h [Design]",
+              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\Code\\C\u002B\u002B\\SegundoParcial\\VerTicketAdmin.h",
+              "RelativeDocumentMoniker": "VerTicketAdmin.h",
+              "ToolTip": "C:\\Users\\Martin\\Desktop\\Code\\C\u002B\u002B\\SegundoParcial\\VerTicketAdmin.h [Design]",
+              "RelativeToolTip": "VerTicketAdmin.h [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-02T02:18:52.245Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VerTicket.h [Design]",
+              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\Code\\C\u002B\u002B\\SegundoParcial\\VerTicket.h",
+              "RelativeDocumentMoniker": "VerTicket.h",
+              "ToolTip": "C:\\Users\\Martin\\Desktop\\Code\\C\u002B\u002B\\SegundoParcial\\VerTicket.h [Design]",
+              "RelativeToolTip": "VerTicket.h [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-02T02:15:00.721Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormMain.h [Design]",
+              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\Code\\C\u002B\u002B\\SegundoParcial\\FormMain.h",
+              "RelativeDocumentMoniker": "FormMain.h",
+              "ToolTip": "C:\\Users\\Martin\\Desktop\\Code\\C\u002B\u002B\\SegundoParcial\\FormMain.h [Design]",
+              "RelativeToolTip": "FormMain.h [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-28T15:19:29.258Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

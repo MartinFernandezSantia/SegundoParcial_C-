@@ -13,6 +13,24 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{7a602aa6-fe44-45ea-80fe-feeec265162e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MySQL">
+      <UniqueIdentifier>{8c37022c-3036-47ae-b45f-f1808733ad1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{45106de6-d5e6-40cd-8d8c-c01fb032166f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model\Cruds">
+      <UniqueIdentifier>{db26d7cc-2f7d-403c-8ae1-0b0c6b74e43e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model\Entities">
+      <UniqueIdentifier>{f93624f6-4a12-4690-bbc0-cc66dbf20675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MySQL\WorkBench">
+      <UniqueIdentifier>{4b11146f-8c05-4691-89b9-7a688bb6cb34}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="app.rc">
@@ -32,13 +50,19 @@
     <ClInclude Include="CrearTicket.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MyForm.h">
+    <ClInclude Include="FormMain.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="VerTicket.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CrearUsuario.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FormChangePass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VerTicketAdmin.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -52,19 +76,43 @@
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Form1.cpp">
+    <ClCompile Include="Auth.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Usuario.cpp">
+      <Filter>Source Files\Model\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Rol.cpp">
+      <Filter>Source Files\Model\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="RolCRUD.cpp">
+      <Filter>Source Files\Model\Cruds</Filter>
+    </ClCompile>
+    <ClCompile Include="UsuarioCRUD.cpp">
+      <Filter>Source Files\Model\Cruds</Filter>
+    </ClCompile>
+    <ClCompile Include="Connection.cpp">
+      <Filter>Source Files\MySQL</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CrearTicket.cpp">
-      <Filter>Header Files</Filter>
+    <ClCompile Include="Ticket.cpp">
+      <Filter>Source Files\Model\Entities</Filter>
     </ClCompile>
-    <ClCompile Include="MyForm.cpp">
-      <Filter>Header Files</Filter>
+    <ClCompile Include="TicketCRUD.cpp">
+      <Filter>Source Files\Model\Cruds</Filter>
     </ClCompile>
-    <ClCompile Include="ModificarTicket.cpp">
-      <Filter>Header Files</Filter>
+    <ClCompile Include="Estado.cpp">
+      <Filter>Source Files\Model\Entities</Filter>
     </ClCompile>
-    <ClCompile Include="CrearUsuario.cpp">
+    <ClCompile Include="Notificacion.cpp">
+      <Filter>Source Files\Model\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="NotificacionCRUD.cpp">
+      <Filter>Source Files\Model\Cruds</Filter>
+    </ClCompile>
+    <ClCompile Include="VerTicketAdmin.cpp">
       <Filter>Header Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -72,5 +120,10 @@
     <Image Include="app.ico">
       <Filter>Resource Files</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Java\SegundoParcial_DesApps\app\src\main\java\com\martin\segundoparcial_desapps\mysql\workbench\CreateDatabaseAndTables.sql">
+      <Filter>Source Files\MySQL\WorkBench</Filter>
+    </None>
   </ItemGroup>
 </Project>

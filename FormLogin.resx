@@ -117,4 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="solicitarDesbloqueoBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAFuSURBVEhLzZK9SwNBEMWvCgaUNEIqQRBM499gYyeiYmNr
+        KdhZWoloaacjtorYCYoGC1FBwdhppyKiSCbmTGJI4Vexcd5lOjfJ7Z2FD37c27m38+A4L7RWnj2PuCtg
+        Na/DvxBxSlgSHoRHBR6zlKYiijgj3AmLQlqnmKd1hncZnTqKuFO4EYZ18lt4R3wbZJ1FPCcs66m5kEHW
+        WcTXQp+emgsZZJ1FXPLWCnpoIeJG1lnEr+rai3hInYNcCkKLOClsCOfCtz5dwN2kbrNIfrvBnZLZvX+P
+        BO5ih26ziHh0PFuuX718RQJ3sUO3WdSiIJf/rM+eVQ24EG/LxCoY2S+biWwlAN6WiVXQv+WbPfnOAN6W
+        iVUwc1o10ycN4G2ZWAXzuVp96ujNAHhbJlbBwmXNTB5WAuBtmVgFx08fZmDbD4C3ZWIVhOF/FIwd2P/x
+        MOBuu4KejvVCsXezaKIgd33s0G1NRJwQuiOS0C0qz/sBfwKHJy9K4JYAAAAASUVORK5CYII=
+</value>
+  </data>
 </root>
