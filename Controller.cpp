@@ -629,15 +629,17 @@ public:
 		if (selectedRows->Count > 0) {
 			try {
 				int ticketId = Convert::ToInt32(selectedRows[0]->Cells[0]->Value);
-				int tecnicoId = Convert::ToInt32(selectedRows[0]->Cells[3]->Value);
 				String^ estado = selectedRows[0]->Cells[2]->Value->ToString();
-				Usuario^ tecnico = this->usuarioCRUD->GetByID(tecnicoId);
 
 				// Si el ticket aun no esta resuelto
 				if (estado != "Resuelto") {
 					MessageBox::Show(this->formMain, "Por favor, espere a que el ticket haya sido marcado como 'Resuelto'.");
 					return;
 				}
+
+				int tecnicoId = Convert::ToInt32(selectedRows[0]->Cells[3]->Value);
+				Usuario^ tecnico = this->usuarioCRUD->GetByID(tecnicoId);
+
 
 				// Si no se pudo actualizar el ticket
 				if (!this->ticketCRUD->updateTicket(ticketId, tecnicoId, 4)) {

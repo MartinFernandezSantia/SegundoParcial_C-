@@ -23,7 +23,7 @@ C:\Users\Martin\Desktop\Code\C++\SegundoParcial\NotificacionCRUD.cpp(2,10): warn
 C:\Users\Martin\Desktop\Code\C++\SegundoParcial\Controller.cpp(115,35): warning C4101: 'e': unreferenced local variable
   (compiling source file '/Controller.cpp')
   
-C:\Users\Martin\Desktop\Code\C++\SegundoParcial\Controller.cpp(834,27): warning C4101: 'e': unreferenced local variable
+C:\Users\Martin\Desktop\Code\C++\SegundoParcial\Controller.cpp(836,27): warning C4101: 'e': unreferenced local variable
   (compiling source file '/Controller.cpp')
   
   AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
